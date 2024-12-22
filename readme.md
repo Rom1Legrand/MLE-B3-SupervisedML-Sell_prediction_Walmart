@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-orange.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0+-green.svg)
-![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
 ## 📋 Description
 Un projet d'analyse prédictive visant à construire un modèle machine learning capable d'estimer les ventes hebdomadaires de différents magasins Walmart. Ce projet s'inscrit dans une démarche d'optimisation des stratégies commerciales et de gestion des stocks.
@@ -36,7 +35,6 @@ Le dataset contient plusieurs types de variables :
 
 3. **Évaluation**
    - Métriques : R², MSE
-   - Validation croisée
    - Analyse des coefficients
 
 ## 📊 Résultats Clés
@@ -60,13 +58,6 @@ Le dataset contient plusieurs types de variables :
    - Stratégies pricing adaptatives
    - Plans d'action spécifiques par magasin
 
-## 🔧 Technologies Utilisées
-- **Python 3.x** : Langage de programmation principal
-- **Pandas** : Manipulation et analyse des données
-- **Scikit-learn** : Modélisation et évaluation
-- **Plotly** : Visualisation interactive des données
-- **Jupyter Notebook** : Environnement de développement
-
 ## 📁 Structure du Projet
     .
     ├── Walmart_sales_prediction.ipynb
@@ -81,7 +72,5 @@ Le dataset contient plusieurs types de variables :
     └── README.md                   # Documentation principale
 
 ## 📈 Axes d'Amélioration
-- Intégration de données concurrentielles
 - Test de modèles plus complexes (XGBoost, Random Forest)
 - Analyse plus fine de la saisonnalité
-- Développement d'un système de monitoring en temps réel
