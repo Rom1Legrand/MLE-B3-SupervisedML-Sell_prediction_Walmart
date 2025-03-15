@@ -34,7 +34,7 @@ Le dataset contient plusieurs types de variables :
    - Optimisation par GridSearch
 
 3. **Évaluation**
-   - Métriques : R², MSE
+   - Métriques : R², MAE, MAPE
    - Analyse des coefficients
 
 ## 📊 Résultats Clés
@@ -59,17 +59,12 @@ Le dataset contient plusieurs types de variables :
    - Plans d'action spécifiques par magasin
 
 ## 📁 Structure du Projet
-    .
-    ├── Walmart_sales_prediction.ipynb
-    │
-    ├── data/                          # Dossier des données
-    │   └── Walmart_Store_sales.csv    # Dataset Walmart
-    │
-    ├── src/                           # sources
+
+    ├── src/                         
     │   ├── missing_holiday_flag.csv   # csv généré
     │   └── Walmart_Store_sales.csv    # dataset original
-    │
-    └── README.md                   # Documentation principale
+    ├── Walmart_sales_prediction.ipynb
+    └── README.md                      # description du projet
 
 ## 📈 Axes d'Amélioration
 - Test de modèles plus complexes (XGBoost, Random Forest)
